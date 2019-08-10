@@ -15,10 +15,9 @@
 
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = Extension
-ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Class       = SYSTEM
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %QCOM%
-ExtensionId = {74CADA29-41D2-428F-BC7D-B695A1AEA3FD}
 DriverVer   = 07/02/2015,1.0.1067.0
 CatalogFile = qcacsp8994.cat
 
@@ -42,17 +41,15 @@ Speaker_cal_8994.acdb   = 1
 ; ACSP  Install Section
 ;*****************************************
 ;[Manufacturer]
-;%StdMfg% = Extensions,NTARM64
+;%StdMfg% = Standard,NTARM64
 
 ; Decorated model section take precedence over undecorated 
 ; ones on XP and later.
-[Extensions.NTARM64]
-%ACSP.DeviceDesc% = Extension_Device, SLM1\QCOM242D
+;[Standard.NTARM64]
+;%ACSP.DeviceDesc% = ACSP_Device, ACPI\QCOM2460
 
-[Extension_Device.HW]
+[DefaultInstall.NTARM64]
 Addreg    = ACSPReg
-
-[Extension_Device]
 CopyFiles = Drivers_Dir_24
 
 
