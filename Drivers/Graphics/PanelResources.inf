@@ -33,5 +33,5 @@ oempanel.sys
 oempanel_etw.dll
 
 [Strings]
-IHV = "LumiaWOA Authors"
+IHV = "LumiaWoA authors"
 
