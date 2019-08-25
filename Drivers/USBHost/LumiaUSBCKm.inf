@@ -8,7 +8,7 @@ Class       = USB
 ClassGuid   = {36FC9E60-C465-11CF-8056-444553540000}
 Provider    = %ManufacturerName%
 CatalogFile = LumiaUSBCKm.cat
-DriverVer   = 08/23/2019,17.52.4.362
+DriverVer   = 08/25/2019,10.17.6.552
 
 [DestinationDirs]
 DefaultDestDir                           = 12
