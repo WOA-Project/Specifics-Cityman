@@ -49,7 +49,7 @@ ExcludeFromSelect = *
 
 [OEM_Inst.NT]
 Copyfiles = OEMCopyFiles
-AddReg    = OEM_Settings
+AddReg    = OEM_Settings,User_Settings
 
 [OEM_Settings]
 HKLM, SOFTWARE\Microsoft\AutoBrightness                                                                 , ABSMonitorControl                       , 0x00010001, 0x00000001
@@ -75,6 +75,11 @@ HKLM, SOFTWARE\OEM\Nokia\Display                                                
 HKLM, SOFTWARE\OEM\Nokia\Display                                                                        , BatteryChargePercent                    , 0x00010001, 0x00000064
 HKLM, SOFTWARE\OEM\Nokia\Display                                                                        , PowerSaveState                          , 0x00010001, 0x00000000
 
+HKLM, SOFTWARE\OEM\Nokia\Display\LPM                                                                    , OPR_Low                                 , 0x00010001, 0x0000005F
+HKLM, SOFTWARE\OEM\Nokia\Display\LPM                                                                    , APIVersion                              , 0x00000000, "1.0"
+HKLM, SOFTWARE\OEM\Nokia\Display\LPM                                                                    , OPR_Med                                 , 0x00010001, 0x00000190
+
+[User_Settings]
 HKLM, SOFTWARE\OEM\Nokia\Display\ColorAndLight                                                          , UserSettingColorTargetGreenY            , 0x00000000, "0.7152"
 HKLM, SOFTWARE\OEM\Nokia\Display\ColorAndLight                                                          , UserSettingNoBrightnessSettings         , 0x00010001, 0x00000001
 HKLM, SOFTWARE\OEM\Nokia\Display\ColorAndLight                                                          , UserSettingColorTargetWhiteX            , 0x00000000, "0.95015469"
@@ -129,9 +134,8 @@ HKLM, SOFTWARE\OEM\Nokia\Display\ColorAndLightProperties                        
 HKLM, SOFTWARE\OEM\Nokia\Display\ColorAndLightProperties                                                , SaturationCIELow                        , 0x00010001, 0x00000100
 HKLM, SOFTWARE\OEM\Nokia\Display\ColorAndLightProperties                                                , MaxSaturationCIEBlueZ                   , 0x00000000, "0.9505"
 
-HKLM, SOFTWARE\OEM\Nokia\Display\LPM                                                                    , OPR_Low                                 , 0x00010001, 0x0000005F
-HKLM, SOFTWARE\OEM\Nokia\Display\LPM                                                                    , APIVersion                              , 0x00000000, "1.0"
-HKLM, SOFTWARE\OEM\Nokia\Display\LPM                                                                    , OPR_Med                                 , 0x00010001, 0x00000190
+[User_Settings.Security]
+"D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GA;;;AU)(A;;GA;;;BG)(A;;GA;;;S-1-15-2-1)(A;;GA;;;WD)"
 
 [OEMCopyFiles]
 oempanel.sys
