@@ -81,13 +81,13 @@ HKLM, "SOFTWARE\OEM\NOKIA\Display\Lpm", "OPR_Med", 0x10001, 0x190
 
 [User_Settings]
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "APIVersion", 0x0, "1.9"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingAppVersion", 0x0, "3.0"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingAppVersion", 0x0, "4.0"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingAtomicUpdate", 0x10001, 0x0
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingBrightConditionBrightness", 0x10001, 0x32
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingBsmDimmingEnabled", 0x10001, 0x1
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorSaturation", 0x10001, 0x32
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorSaturationMatrix", 0x10001, 0xffffffff
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorSaturationPA", 0x10001, 0xffffffff
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorSaturationMatrix", 0x10001, 0x64
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorSaturationPA", 0x10001, 0x64
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorSaturationSupportedSteps", 0x10001, 0x64
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetBlueX", 0x0, "0.1805"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetBlueY", 0x0, "0.0722"
@@ -95,9 +95,9 @@ HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetBlueZ",
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetGreenX", 0x0, "0.3576"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetGreenY", 0x0, "0.7152"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetGreenZ", 0x0, "0.1192"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetRedX", 0x0, "0.4124"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetRedX", 0x0, "0.4123"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetRedY", 0x0, "0.2126"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetRedZ", 0x0, "0.0193"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetRedZ", 0x0, "0.0192"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetWhiteX", 0x0, "0.95015469"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetWhiteY", 0x0, "1.0"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingColorTargetWhiteZ", 0x0, "1.08825906"
@@ -105,33 +105,35 @@ HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingDarkConditionBrigh
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingFingerFilterEnabled", 0x10001, 0x1
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingKeyLightsEnabled", 0x10001, 0x1
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingKeyLightsScalerPct", 0x10001, 0xffffffff
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingManualBrightnessForced", 0x10001, 0xffffffff
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingNoBrightnessSettings", 0x10001, 0x1
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingSreEnabled", 0x10001, 0xffffffff
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingSreEnabled", 0x10001, 0x1
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingUiStarted", 0x10001, 0x0
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingWhitePoint", 0x10001, 0x32
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLight", "UserSettingWhitePointSupportedSteps", 0x10001, 0x64
 
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "AmbientLightValue", 0x10001, 0xffffffff
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "DisplayId", 0x10001, 0x0
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEBlueX", 0x0, "0.1805"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEBlueY", 0x0, "0.0722"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEBlueZ", 0x0, "0.9505"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEGreenX", 0x0, "0.3576"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEGreenY", 0x0, "0.7152"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEGreenZ", 0x0, "0.1192"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIERedX", 0x0, "0.4124"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIERedY", 0x0, "0.2126"
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIERedZ", 0x0, "0.0193"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "ColorCalibrationChecksum", 0x10001, 0x13fe93
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "DisplayId", 0x10001, 0xfe85dc
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEBlueX", 0x0, "0.1839"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEBlueY", 0x0, "0.0632"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEBlueZ", 0x0, "1.0705"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEGreenX", 0x0, "0.2450"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEGreenY", 0x0, "0.7260"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIEGreenZ", 0x0, "0.0455"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIERedX", 0x0, "0.5725"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIERedY", 0x0, "0.2877"
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "MaxSaturationCIERedZ", 0x0, "0.0005"
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "OsAutomaticallyAdjustEnabled", 0x10001, 0x1
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationCIEHigh", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationCIELow", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationCIEMid", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationMatrixHigh", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationMatrixLow", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationMatrixMid", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationPAHigh", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationPALow", 0x10001, 0x100
-HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationPAMid", 0x10001, 0x100
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationCIEHigh", 0x10001, 0xc8
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationCIELow", 0x10001, 0x32
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationCIEMid", 0x10001, 0x96
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationMatrixHigh", 0x10001, 0x69
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationMatrixLow", 0x10001, 0x64
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationMatrixMid", 0x10001, 0x64
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationPAHigh", 0x10001, 0x66
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationPALow", 0x10001, 0x64
+HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "SaturationPAMid", 0x10001, 0x64
 HKLM, "SOFTWARE\OEM\NOKIA\Display\ColorAndLightProperties", "UserSettingDisplayCurrentBrightnessPct", 0x10001, 0xffffffff
 
 [User_Settings.Security]
