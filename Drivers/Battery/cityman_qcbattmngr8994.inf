@@ -19,16 +19,6 @@ DriverVer   = 07/02/2015,1.0.1067.0000
 CatalogFile = cityman_qcbattmngr8994.cat
 PnPLockdown = 1
 
-[SourceDisksNames]
-1 = %DiskId%
-
-[SourceDisksFiles]
-qcbattmngr8994.sys = 1
-
-;12 == Windows\System32\Drivers
-[DestinationDirs]
-DefaultDestDir = 12
-
 [ControlFlags]
 ExcludeFromSelect = *
 
