@@ -15,11 +15,12 @@
 
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = SYSTEM
-ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %QCOM%
+ExtensionId = {21E3E289-3E58-469D-B9DF-65339CD11E4B}
 DriverVer   = 07/02/2015,1.0.1067.0
-CatalogFile = qcacsp8994.cat
+CatalogFile = cityman_qcacsp8994.cat
 
 [DestinationDirs]
 Drivers_Dir_24 = 11
@@ -40,18 +41,17 @@ Speaker_cal_8994.acdb   = 1
 ;*****************************************
 ; ACSP  Install Section
 ;*****************************************
-;[Manufacturer]
-;%StdMfg% = Standard,NTARM64
+[Manufacturer]
+%StdMfg% = DeviceExtensions,NTarm64
 
 ; Decorated model section take precedence over undecorated 
 ; ones on XP and later.
-;[Standard.NTARM64]
-;%ACSP.DeviceDesc% = ACSP_Device, ACPI\QCOM2460
+[DeviceExtensions.NTarm64]
+%ACSP.DeviceDesc% = DeviceExtension_Install, SLM1\QCOM242D
 
-[DefaultInstall.NTARM64]
+[DeviceExtension_Install]
 Addreg    = ACSPReg
 CopyFiles = Drivers_Dir_24
-
 
 [Drivers_Dir_24]
 Bluetooth_cal_8994.acdb

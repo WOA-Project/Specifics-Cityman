@@ -15,11 +15,12 @@
 
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = SYSTEM
-ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %QCOM%
-DriverVer   = 07/02/2015,1.0.1067.0
-CatalogFile = qcdx_fw8994.cat
+ExtensionId = {21E3E289-3E58-469D-B9DF-65339CB01F4D}
+DriverVer   = 07/02/2015,11.18.1067.0000
+CatalogFile = cityman_qcdx_ffu8994.cat
 
 [DestinationDirs]
 Drivers_Dir_24 = 11
@@ -30,7 +31,13 @@ Drivers_Dir_24 = 11
 [SourceDisksFiles]
 qcvss8994.mbn = 1
 
-[DefaultInstall.NTARM64]
+[Manufacturer]
+%StdMfg% = DeviceExtensions,NTarm64
+
+[DeviceExtensions.NTarm64]
+%CPE.DeviceDesc% = DeviceExtension_Install, ACPI\VEN_QCOM&DEV_246F
+
+[DeviceExtension_Install]
 CopyFiles = Drivers_Dir_24
 AddReg = DXReg
 

@@ -14,7 +14,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 provider    = %QCOM%
 ExtensionId = {21E3E289-3E58-469D-B9DF-65339CD11F4E}
 DriverVer   = 07/02/2015,1.0.1067.0
-CatalogFile = qcaud.cit8994.cat
+CatalogFile = cityman_qcaud8994.cat
 
 [SourceDisksNames]
 222 = %DiskId%

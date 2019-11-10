@@ -15,11 +15,12 @@
 
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = SYSTEM
-ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %QCOM%
+ExtensionId = {21E3E289-3E58-469D-B9DF-54339CB01F4D}
 DriverVer   = 07/02/2015,1.0.1067.0
-CatalogFile = qcwlan_fw8994.cat
+CatalogFile = cityman_qcwlan8994.cat
 
 [DestinationDirs]
 Drivers_Dir_24 = 12
@@ -32,7 +33,13 @@ qwlan30.bin    = 1,,
 bdwlan30.bin   = 1,,
 Data.msc       = 1,,
 
-[DefaultInstall.NTARM64]
+[Manufacturer]
+%StdMfg% = DeviceExtensions,NTarm64
+
+[DeviceExtensions.NTarm64]
+%WLANFW.DeviceDesc% = DeviceExtension_Install, PCI\VEN_168C&DEV_003E
+
+[DeviceExtension_Install]
 CopyFiles = Drivers_Dir_24
 
 [Drivers_Dir_24]
