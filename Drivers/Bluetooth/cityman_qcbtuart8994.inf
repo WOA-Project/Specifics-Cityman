@@ -15,10 +15,9 @@
 
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = Extension
-ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Class       = System
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %QCOM%
-ExtensionId = {21E3E289-3E58-469D-B9DF-65339CD10F4D}
 DriverVer   = 07/02/2015,2.3.0.6
 CatalogFile = cityman_qcbtuart8994.cat
 
@@ -34,13 +33,7 @@ nvm_tlv_3.2.bin      = 1,,
 rampatch_tlv_3.0.tlv = 1,,
 rampatch_tlv_3.2.tlv = 1,,
 
-[Manufacturer]
-%StdMfg% = DeviceExtensions,NTarm64
-
-[DeviceExtensions.NTarm64]
-%BTFW.DeviceDesc% = DeviceExtension_Install, ACPI\VEN_QCOM&DEV_24B2
-
-[DeviceExtension_Install]
+[DefaultInstall.NTarm64]
 CopyFiles = Drivers_Dir_24
 
 [Drivers_Dir_24]
